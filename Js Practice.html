@@ -631,6 +631,69 @@
             console.log(o)
         }, 1000);
     }
+
+
+    // for (var i = 0; i < 3; i++) {
+//   setTimeout(() => console.log(i), 1);
+// }
+// for (let i = 0; i < 3; i++) {
+//   setTimeout(() => console.log(i), 1);
+// }
+console.log('I want pizza'[0]);
+function* generator(i) {
+  yield i*3;
+  yield i * 2;
+}
+
+const gen = generator(10);
+
+console.log(gen.next().value);
+console.log(gen.next().value);
+
+
+let number = 0;
+// console.log(number++);
+// console.log(++number);
+// console.log(number);
+
+function getPersonInfo(one, two, three) {
+  console.log(one);
+  console.log(two);
+  console.log(three);
+}
+
+const person = 'Lydia';
+const age = 21;
+
+// getPersonInfo`${person} is ${age} years old`;
+
+// const bird = {
+//   size: 'small',
+// };
+
+// const mouse = {
+//   name: 'Mickey',
+//   small: true,
+// };
+
+// console.log("2", mouse[bird.size])
+// console.log("3", mouse[bird["size"]])
+// console.log("1", mouse.bird.size)
+    
+// function Person(firstName, lastName) {
+//   this.firstName = firstName;
+//   this.lastName = lastName;
+// }
+
+// const member = new Person('Lydia', 'Hallie');
+// Person.getFullName = function() {
+//   return `${this.firstName} ${this.lastName}`;
+// };
+
+// console.log(Person.getFullName());
+
+
+    
     // Theory..................................
     //     When you use var to declare a variable, it is declared globally or functionally scoped, depending on where it's declared. This means that the variable is accessible anywhere within the same function or global scope, including inside the callback function passed to setTimeout. In your example, since var is used to declare the variable o, the callback function for setTimeout will always log the final value of o (which is 4) after a delay of 1 second for each iteration of the loop.
 
