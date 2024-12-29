@@ -14,10 +14,14 @@ Explore the repository for JavaScript questions and answers here:
 
 ## How to Use This Repository
 
-Browse Questions: Go through the list of JavaScript questions to test your knowledge.
+### Browse Questions: 
+- Go through the list of JavaScript questions to test your knowledge.
 
-Challenge Yourself: Try to answer the questions before looking at the solutions.
+### Challenge Yourself: 
+- Try to answer the questions before looking at the solutions.
 
-Read Explanations: Review the detailed answers and explanations provided in the repository to solidify your understanding.
+### Read Explanations: 
+- Review the detailed answers and explanations provided in the repository to solidify your understanding.
 
-Practice Regularly: Come back often to revisit questions and practice new ones.
+### Practice Regularly:
+- Come back often to revisit questions and practice new ones.
